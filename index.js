@@ -1,1 +1,1 @@
-console.log("PASS")
+console.log("SUCCESS")
