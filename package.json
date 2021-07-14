@@ -1,0 +1,26 @@
+{
+  "name": "semantic-release-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllanGuigou/semantic-release-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AllanGuigou/semantic-release-playground/issues"
+  },
+  "homepage": "https://github.com/AllanGuigou/semantic-release-playground#readme",
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "npmPublish": false
+  },
+  "devDependencies": {}
+}
