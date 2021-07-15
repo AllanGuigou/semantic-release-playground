@@ -20,7 +20,8 @@
     "branches": [
       "main"
     ],
-    "npmPublish": false
+    "npmPublish": false,
+    "private": true
   },
   "devDependencies": {}
 }
