@@ -21,7 +21,12 @@
       "main"
     ],
     "npmPublish": false,
-    "private": true
+    "private": true,
+    "plugins": [
+      "@semantic-release/git"
+    ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@semantic-release/git": "^9.0.0"
+  }
 }
