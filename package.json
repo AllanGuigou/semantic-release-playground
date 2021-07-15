@@ -20,7 +20,7 @@
     "branches": [
       "main"
     ],
-    "npmPublish": false,
+    "private": true,
     "plugins": [
       ["@semantic-release/git", {
         "assets": ["package.json", "index.js"],
