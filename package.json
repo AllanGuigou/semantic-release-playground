@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-playground",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -23,15 +23,25 @@
     "npmPublish": false,
     "private": true,
     "plugins": [
-      ["@semantic-release/release-notes-generator", {
-        "preset": "angular",
-        "parserOpts": {
-          "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
-        },
-        "writerOpts": {
-          "commitsSort": ["subject", "scope"]
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "angular",
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES",
+              "BREAKING"
+            ]
+          },
+          "writerOpts": {
+            "commitsSort": [
+              "subject",
+              "scope"
+            ]
+          }
         }
-      }],
+      ],
       "@semantic-release/npm",
       [
         "@semantic-release/git",
